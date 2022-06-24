@@ -9,11 +9,11 @@ if (isNaN(num1) || isNaN(num2)) {
   if ((opr = "+")) {
     result = num1 + num2;
   } else if ((opr = "-")) {
-    result = num1 + num2;
+    result = num1 - num2;
   } else if ((opr = "*")) {
-    result = num1 + num2;
+    result = num1 * num2;
   } else if ((opr = "/")) {
-    result = num1 + num2;
+    result = num1 / num2;
   }
 }
 alert("=" + result);
