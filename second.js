@@ -6,13 +6,13 @@ let result;
 if (isNaN(num1) || isNaN(num2)) {
   window.prompt("incorrect input please refresh and restart");
 } else {
-  if ((opr = "+")) {
+  if ((opr === "+")) {
     result = num1 + num2;
-  } else if ((opr = "-")) {
+  } else if ((opr === "-")) {
     result = num1 - num2;
-  } else if ((opr = "*")) {
+  } else if ((opr === "*")) {
     result = num1 * num2;
-  } else if ((opr = "/")) {
+  } else if ((opr === "/")) {
     result = num1 / num2;
   }
 }
